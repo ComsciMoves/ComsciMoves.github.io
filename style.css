@@ -1,0 +1,18 @@
+.image {
+    width: 150px;
+}
+
+.headerlist {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.headerlist:hover {
+    color: yellow;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bolder;
+}
