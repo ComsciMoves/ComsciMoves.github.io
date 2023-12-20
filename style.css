@@ -3,16 +3,21 @@
 }
 
 .headerlist {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
-  color: black;
+  color:rgb(182, 119, 0);
 }
 
 .headerlist:hover {
     color: yellow;
+    text-decoration: underline;
 }
 
 .title {
     font-size: 30px;
     font-weight: bolder;
+}
+
+.image1 {
+    width: 500px;
 }
