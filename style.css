@@ -1,23 +1,55 @@
+body {
+    display: grid;
+    /* Mobile First Approach */
+    grid-template-areas: 
+    "header" 
+    "nav"
+    "article"  
+    "footer";
+    grid-template-rows: 40px 60px 1fr 80px ;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    grid-area: header;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+article {
+    grid-area: article;
+}
+
+
+footer {
+    grid-area: footer;
+}
+
 .image {
     width: 150px;
 }
 
+/* Navigation */
 .headerlist {
   font-size: 30px;
   font-weight: bold;
   color:rgb(182, 119, 0);
 }
 
+/* Navigation Style */
 .headerlist:hover {
     color: yellow;
     text-decoration: underline;
 }
 
-.title {
-    font-size: 30px;
-    font-weight: bolder;
+.image1 {
+    width: 400px;
 }
 
-.image1 {
-    width: 500px;
+.alph {
+    width: 250px;
 }
